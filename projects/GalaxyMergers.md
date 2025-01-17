@@ -4,7 +4,7 @@ type: project
 image: img/onemin.png
 title: "Dynamics of Remnant Structures Produced by Mergers between Identical Anisotropic Spherical Galaxies"
 date: 2025
-published: false
+published: true
 labels:
   - Python
 summary: "My professor and I have been creating N-Body Simulations on Galaxy Mergers to study the dynamics of their remnant structures."
