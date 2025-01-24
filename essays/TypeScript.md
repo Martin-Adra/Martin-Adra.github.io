@@ -30,6 +30,6 @@ function projectEulerOne(num : number){
 console.log(projectEulerOne(1000))
 ```
 
-Notice the way the parameter is written and the variable "sum" has that "let" written. With this organization, I can clearly see the types of variables they are, whether they will be changed or if they are just some kind of string or number. It is great in my opinion! 
+Notice the way the parameter is written and the variable "sum" has that "let" written. With this organization, I can clearly see the types of variables they are, whether they will be changed or if they are just some kind of string or number. Doing this over and over again and reading other people's codes with this good practice, it is just great in my opinion! 
 
 
