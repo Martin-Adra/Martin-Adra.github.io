@@ -144,7 +144,7 @@ def plot_multiple_caba_time_series_average(shell_number=4):
 # r_5_caba_time = plot_multiple_caba_time_series_average(shell_number=5)
 ```
 
-Here is a figure of one run of running these two functions:
+Here is a figure of one run from these two functions:
 
 <img class="img-fluid" src="../img/Averaged_Axial_Ratios_11_13_24.png">
 
