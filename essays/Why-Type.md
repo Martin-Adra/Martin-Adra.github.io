@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Why Choose TypeScript? Insights from a Researcher Perspectives"
+title: "Why Choose TypeScript? Insights from a Researcher's Perspective"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-23
 published: true
