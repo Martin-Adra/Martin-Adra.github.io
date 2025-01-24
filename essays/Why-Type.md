@@ -7,6 +7,8 @@ date: 2025-01-23
 published: true
 labels:
   - Research
+  - Learning
+  - Organization
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/Diagrams-1.jpg">
