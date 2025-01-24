@@ -3,10 +3,10 @@ layout: essay
 type: essay
 title: "Why Choose TypeScript? Insights from a Researcher Perspectives"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2025-01-23
 published: true
 labels:
-  - Engineering
+  - Research
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/Diagrams-1.jpg">
