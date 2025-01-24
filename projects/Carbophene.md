@@ -15,3 +15,7 @@ The goals of this study were fourfold. First, to evaluate the gas adsorption pro
 
 Our results show that the adsorption energies of greenhouse gases (GHGs) on functionalized carbophenes are higher than those of proposed next-generation adsorbents, while maintaining only half their density. Adding a second GHG molecule does not significantly alter adsorption properties; however, increasing the density of functional groups within the carbophene pores can reduce the adsorption energy of GHGs. Additionally, we have demonstrated that functionalized carbophenes can adsorb hydrogen molecules with energies comparable to metal-containing materials. The predicted desorption temperatures are greater than 400 K, suggesting that carbophenes could be used as CO2 air scrubbers in confined spaces or as solid-state hydrogen storage materials.
 
+
+You can learn more at the published paper [Functionalized carbophenes as high-capacity versatile gas adsorbents: An ab initio study](https://doi.org/10.1016/j.commatsci.2023.112665).
+Here is the Data in Brief related to the paper [Density functional tight-binding derived data of gas capture in functionalized carbophenes](https://doi.org/10.1016/j.dib.2024.110652)
+
