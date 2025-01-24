@@ -13,7 +13,7 @@ summary: "My professor and I have been creating N-Body Simulations on Galaxy Mer
 
 This study compares the remnants of mergers between radially-anisotropic spherical galaxies with their isotropic look-alikes. Utilizing N-body simulations with varying degrees of initial anisotropy, we analyze the resulting relaxed remnants to assess differences in their shapes and density profiles. Our analysis focuses on how the faster merger rates observed in anisotropic models influence the transfer of angular momentum during the collision process. By comparing these dynamics, this research aims to display the impact of anisotropy on the equilibrium states of the remnant structures of these merged galaxies.
 
-Provided below are two functions that work together in plotting the "averaged" axial ratios (c/a and b/a) over time for each kind of set
+Provided below is an example of the analysis we do where we have two functions that work together in plotting the "averaged" axial ratios (c/a and b/a) over time for both the anisotropic and isotropic data sets.
 
 
 ```
@@ -144,5 +144,8 @@ def plot_multiple_caba_time_series_average(shell_number=4):
 # r_5_caba_time = plot_multiple_caba_time_series_average(shell_number=5)
 ```
 
+Here is a figure of one run of running these two functions:
 
-Three graphs of the time series for averaging the axial ratios of b/a and c/a for each realization set (isotropic and anisotropic) of pericentric separation of the initial orbit. The shell of the Merger Remnant that is being represented here is shell n=4. The color blue would represent the isotropic realization merger set and yellow would represent its anisotropic counterparts. The dashed lines would represent the b/a ratios and the solid lines would represent the c/a ratios. Note each graph having different time ranges, whereas the pericentric separation gets larger (i.e., r10 has a smaller pericentric separation than r40), the further down in time we are at. Looking at each graph, we can see that equilibrium is reached for both the isotropic and anisotropic sets as the ratios do not seem to change as time progresses in this time range. In addition, the c/a ratios become lower throughout as the pericentric separation becomes larger, meaning that the shape of our shell becomes more elongated in this trend.
+<img class="img-fluid" src="../img/Averaged_Axial_Ratios_11_13_24.png">
+
+Figure 1: Three graphs of the time series for averaging the axial ratios of b/a and c/a for each realization set (isotropic and anisotropic) of pericentric separation of the initial orbit. The shell of the Merger Remnant that is being represented here is shell n=4. The color blue would represent the isotropic realization merger set and yellow would represent its anisotropic counterparts. The dashed lines would represent the b/a ratios and the solid lines would represent the c/a ratios. Note each graph having different time ranges, whereas the pericentric separation gets larger (i.e., r10 has a smaller pericentric separation than r40), the further down in time we are at. Looking at each graph, we can see that equilibrium is reached for both the isotropic and anisotropic sets as the ratios do not seem to change as time progresses in this time range. In addition, the c/a ratios become lower throughout as the pericentric separation becomes larger, meaning that the shape of our shell becomes more elongated in this trend.
