@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/onemin.png
+image: img/jeancharles.png
 title: "Functionalized carbophenes as high-capacity versatile gas adsorbents: An ab initio study"
 date: 2023
 published: true
