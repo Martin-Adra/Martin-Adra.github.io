@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "Why Choose TypeScript? Insights from a Researcher's Perspective"
+title: "From Code to Career: My Passion for Software Engineering and Future Goals"
 # All dates must be YYYY-MM-DD format!
-date: 2025-01-23
+date: 2025-01-29
 published: true
 labels:
   - Research
@@ -11,28 +11,15 @@ labels:
   - Organization
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/Diagrams-1.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/software_eng.png">
 
-In my time as a researcher, I have made many mistakes in my codes. It could be something huge that a certain function should not be running a certain calculation, or something so small such as a variable type change. Going into TypeScript has amazed me with how beautiful, but simple their logic is in the language. Assigning types in this fashion made me feel reassured about what is chaning and what is constant. Mainly, the flexibility it has with JavaScript and its structure brings me joy as a programmer since other languages would have a hard time doing things TypeScript would be doing. 
+Software engineering is more than just writing code—it is a discipline that merges creativity with problem-solving to build solutions that shape the future. My interest in this field stems from a fascination with how technology can streamline complex processes, automate tasks, and enhance user experiences. The logical nature of programming, combined with the vast possibilities for innovation, excites me and fuels my desire to continue exploring new concepts in software development. Whether it is designing efficient algorithms, optimizing performance, or working with scalable architectures, I find the challenge of problem-solving in software engineering both engaging and rewarding.
 
-## Organization is Key!
+As I continue my journey, I hope to develop strong technical skills in areas such as full-stack development, cloud computing, and artificial intelligence. Mastering languages like Python, Java, and JavaScript will allow me to build versatile applications, while gaining expertise in cloud platforms like AWS or Google Cloud will help me understand how to create scalable, distributed systems. Additionally, I aim to enhance my knowledge of data structures and algorithms, as they are fundamental to writing efficient and optimized code. 
 
-For one of my jobs I had to interview with, they asked me how I organized my code. As any average programmer would say, I would put sections and made sure my code is readable through the comments I put. Of course, there is much more to this as any good programmer should follow clean and responsible guidelines in how to format their code. However, as I said earlier, the languages I worked with would not provide "best practices" as good as TypeScript would in terms of being organized. For example, with TypeScript, it is very easy and effective to call out a variable whether it needs to be constant or changed. Here is a function that would calculate the sum of all of the numbers under 1000 (or any number you want) that are divisible by 3 or 5:
+## Projects
 
-```
-function projectEulerOne(num : number){
-    let sum = 0
-    for (let x = 10 ; x % 3 || x % 5 == 0 ; x--){
-        sum += x
-    } 
-
-    return sum;
-
-}
-console.log(projectEulerOne(1000))
-```
-
-Notice the way the parameter is written and the variable "sum" has that "let" written. With this organization, I can clearly see the types of variables they are, whether they will be changed or if they are just some kind of string or number. Doing this over and over again and reading other people's codes with this good practice, it is just great in my opinion! 
+Beyond technical skills, I also want to seek experiences that challenge me to think critically and collaborate with others. Working on real-world projects and contributing to open-source software will provide valuable hands-on experience and help me develop problem-solving skills under real constraints. Previously, I was a computational physicists for the VIA-SEEs project and I would design and create simulations for our particle detector. The whole experience gave me a great insight on this real-world experience I was looking for. Ultimately, I want to become a well-rounded software engineer who can contribute to meaningful projects, adapt to emerging technologies, and continuously refine my skills in this ever-evolving industry! 
 
 
 
