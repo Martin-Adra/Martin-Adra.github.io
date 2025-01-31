@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/MoSe2.png
+image: img/MoSe2_pic.png
 title: "A Material Analysis of MoSe2"
 date: 2025
 published: true
