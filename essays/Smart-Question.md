@@ -1,23 +1,27 @@
 ---
 layout: essay
 type: essay
-title: "Why Choose TypeScript? Insights from a Researcher's Perspective"
+title: "Brains Over Blabber: Why Smart Questions Matter More Than Smart Answers"
 # All dates must be YYYY-MM-DD format!
-date: 2025-01-23
+date: 2025-02-03
 published: true
 labels:
-  - Research
-  - Learning
-  - Organization
+  - Stack Overflow
+  - Questions
+  - Answers
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/Diagrams-1.jpg">
 
-In my eyes, smart questions are characterized by clarity, specificity, and completeness. They follow to established guidelines that facilitate efficient and effective responses from the community. For software engineers, mastering the art of asking such questions not only expedites troubleshooting but also contributes to a collective repository of knowledge that benefits the broader development community. Conversely, poorly framed questions can lead to misunderstandings, insufficient assistance, and a waste of valuable time for both the asker and potential responders.
+In my eyes, smart questions are characterized by clarity, specificity, and completeness. For software engineers, mastering the art of asking such questions makes troubleshooting much better. Conversely, poorly framed questions can lead to misunderstandings, insufficient assistance, and a waste of valuable time for both the asker and potential responders. Despite this negative effect, poor questions still come up from time to time. 
 
-## Organization is Key!
+Speaking of questions, one prime website that us software engineers always venture to for answers is Stack Overflow. Whenever a question pops up in their mind that is not answerable at that moment, Stack Overflow is always the place to go to. So, let's talk about this amazing source and explore this idea of smart questions!
 
-For one of my jobs I had to interview with, they asked me how I organized my code. As any average programmer would say, I would put sections and made sure my code is readable through the comments I put. Of course, there is much more to this as any good programmer should follow clean and responsible guidelines in how to format their code. However, as I said earlier, the languages I worked with would not provide "best practices" as good as TypeScript would in terms of being organized. For example, with TypeScript, it is very easy and effective to call out a variable whether it needs to be constant or changed. Here is a function that would calculate the sum of all of the numbers under 1000 (or any number you want) that are divisible by 3 or 5:
+## Not so smart, but we must ask
+
+When going into Stack Overflow, it would typically require you to ask a smart question. However, let's look into one that is not from this source
+
+
 
 ```
 function projectEulerOne(num : number){
