@@ -11,7 +11,7 @@ labels:
   - Answers
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/Diagrams-1.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/Smart-Answers-to-the-21-Most-Common-Interview-Questions-in-2021-2.png">
 
 In my eyes, smart questions are characterized by clarity, specificity, and completeness. For software engineers, mastering the art of asking such questions makes troubleshooting much better. Conversely, poorly framed questions can lead to misunderstandings, insufficient assistance, and a waste of valuable time for both the asker and potential responders. Despite this negative effect, poor questions still come up from time to time. 
 
