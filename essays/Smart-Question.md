@@ -19,7 +19,7 @@ Speaking of questions, one prime website that us software engineers always ventu
 
 ## Not so smart, but we must ask
 
-When going into Stack Overflow, it would typically require you to ask a smart question. However, let's look into one that is not smart from this [Source]([http://techfolios.github.io](https://stackoverflow.com/questions/79399913/how-create-api-for-remove-background-application-using-python)):
+When going into Stack Overflow, it would typically require you to ask a smart question. However, let's look into one that is not smart from this source, ["How create API for remove background application using python"]([http://techfolios.github.io](https://stackoverflow.com/questions/79399913/how-create-api-for-remove-background-application-using-python)):
 
 ```
 How to create an API for a remove background application using Python. Need step-by-step guide covers everything from setting up environment to deploying the API, making it easy to build a powerful background removal tool. Perfect for developers and beginners alike!
