@@ -19,23 +19,25 @@ Speaking of questions, one prime website that us software engineers always ventu
 
 ## Not so smart, but we must ask
 
-When going into Stack Overflow, it would typically require you to ask a smart question. However, let's look into one that is not from this source
-
-
+When going into Stack Overflow, it would typically require you to ask a smart question. However, let's look into one that is not smart from this [source]([http://techfolios.github.io](https://stackoverflow.com/questions/79399913/how-create-api-for-remove-background-application-using-python)):
 
 ```
-function projectEulerOne(num : number){
-    let sum = 0
-    for (let x = 10 ; x % 3 || x % 5 == 0 ; x--){
-        sum += x
-    } 
-
-    return sum;
-
-}
-console.log(projectEulerOne(1000))
+How to create an API for a remove background application using Python. Need step-by-step guide covers everything from setting up environment to deploying the API, making it easy to build a powerful background removal tool. Perfect for developers and beginners alike!
 ```
 
-Notice the way the parameter is written and the variable "sum" has that "let" written. With this organization, I can clearly see the types of variables they are, whether they will be changed or if they are just some kind of string or number. Doing this over and over again and reading other people's codes with this good practice, it is just great in my opinion! 
+Notice how the question plainly asks how to do it, expecting a full given analysis and design of this service. In addition, it is not really grammatically written correct. Finally, they need to provide clearer details to their goals!
 
+## Smart question, we must ask!
+
+As said before, Stack Overflow would require you to ask a smart question, so let's look at one this time. From the source, ["Material-UI DataGrid Width Issue"](https://stackoverflow.com/questions/66590896/material-ui-datagrid-width-issue):
+
+```
+Is it possible to get the DataGrid to only be the width of the rows without setting a containing div width?
+
+I have tried disableExtendRowFullWidth={true} to help, but this only does the rows. The containing DataGrid is still full wide.
+
+Here's my current code example - https://codesandbox.io/s/material-ui-issue-forked-j720c?file=/src/Demo.js
+```
+
+First, notice how they even provided a code example so that the readers can definitely see to it themselves. Secondly, the question is clear and they even attempted a command similar to this, but they need something else. Lastly, this is part of a forum that is relevant to their question!
 
