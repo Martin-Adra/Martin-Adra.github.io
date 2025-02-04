@@ -43,5 +43,5 @@ Here's my current code example - https://codesandbox.io/s/material-ui-issue-fork
 
 First, notice how they even provided a code example so that the readers can definitely see to it themselves. Secondly, the question is clear and they even attempted a command similar to this, but they need something else. Lastly, this is part of a forum that is relevant to their question!
 
-With smart questions, you will potentially get smart answers. These answers may save a lot of your time too, so always be considerate when asking your questions!
+With smart questions, you will potentially get smart answers. These answers may save a lot of your time too, so always be considerate when asking your questions or else it will pose negative effects on both sides.
 
