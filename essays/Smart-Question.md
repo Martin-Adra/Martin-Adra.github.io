@@ -22,7 +22,9 @@ Speaking of questions, one prime website that us software engineers always ventu
 When going into Stack Overflow, it would typically require you to ask a smart question. However, let's look into one that is not smart from this source, ["How create API for remove background application using python"]([http://techfolios.github.io](https://stackoverflow.com/questions/79399913/how-create-api-for-remove-background-application-using-python)):
 
 ```
-How to create an API for a remove background application using Python. Need step-by-step guide covers everything from setting up environment to deploying the API, making it easy to build a powerful background removal tool. Perfect for developers and beginners alike!
+How to create an API for a remove background application using Python. Need step-by-step guide covers everything
+from setting up environment to deploying the API, making it easy to build a powerful background removal tool.
+Perfect for developers and beginners alike!
 ```
 
 Notice how the question plainly asks how to do it, expecting a full given analysis and design of this service. In addition, it is not really grammatically written correct. Finally, they need to provide clearer details to their goals!
