@@ -4,13 +4,13 @@ layout: essay
 type: essay
 title: "The Value of Coding Standards: More Than Just A Style"
 # All dates must be YYYY-MM-DD format!
-date: 2025-02-03
+date: 2025-02-13
 published: true
 labels:
   - Coding Standards
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/Smart-Answers-to-the-21-Most-Common-Interview-Questions-in-2021-2.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/codingstandards.jpg">
 
 When many people hear "coding standards," they often think of minor stylistic preferences—whether to use spaces or tabs, how to format braces, or whether variable names should be camelCase or snake_case. While these elements contribute to readability, they only scratch the surface of what coding standards truly represent. In reality, coding standards are one of the most powerful tools in software engineering, capable of improving code quality, maintainability, and even a developer’s understanding of a programming language.
 
