@@ -3,12 +3,13 @@ layout: essay
 type: essay
 title: "Why UI Frameworks Matter: A Deep Dive into Bootstrap 5"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2025-02-27
+published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - UI Frameworks
+  - Bootstrap 5
+  - HTML
+  - CSS
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/bootstrap-5.0-illustration.png">
