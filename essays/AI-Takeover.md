@@ -1,99 +1,65 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "AI Takeover"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2025-05-11
+published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - AI
+  - Learning
+  - Applications
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/AI-takeover.jpg">
 
-## Is there such thing as a stupid question?
+# Intro to AI
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+Artificial Intelligence (AI) has rapidly become an overwhelming force in education, especially in disciplines that rely on problem-solving and technical proficiency such as Software Engineering. In ICS 314, AI has played a role in enhancing how I understand and apply software engineering concepts. Tools like ChatGPT and GitHub Co-Pilot have become virtual study partners for me! While ChatGPT was my primary resource, I occasionally tested alternatives to compare results. These tools contributed in varied ways across assignments, coding practice, and conceptual understanding, but not without limitations.
 
-## What’s a smart question?
+# Personal Experience with AI
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+### WODs 
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+For the experience WODs we would do in ICS 314, I typically ask ChatGPT, "Can you explain to me what this function does?" and ChatGPT gave a clear answer but it lacked some context-specific logic. I had to refactor its code to align with the exact instructions. It was helpful to get started, but refinement was essential. For in class practice WODs, I often skipped AI assistance here to really get myself in real-time pressure. I believed practicing independently improved speed and confidence in my code. Now for in class WODs, I usually used ChatGPT to remind me of what specific functions were. For example, I would ask, "Okay, what function can I use to insert an image?" and I would use what they would give me and test it. Overall, the costs of using AI led me to have a better understanding in some of the functions and saved me plenty of time.
 
-```
-Q: python date of the previous month
+### Projects
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+ChatGPT was very helpful for brainstorming some structure for my essays and had great rewordings for clarity. For example, one of the prompts I would ask, “How would I structure a reflection essay about UI Franeworks in software engineering?” It suggested an outline that really followed nicely to the assignment prompt. I then would feed it my paragraphs and asked for improvements in flow and conciseness. Now for the final project, I used ChatGPT to assist in debugging. One time I asked, “How do I setup the navbar with this code...” and I would show them a snippet of my code. It produced answers that I would build off from, but I really wanted to make sure I do not blindly follow it. I had to adjust the code as sometimes, it even removed some other code I had inside my file! Mainly, this was typically the cost of using AI in these big assignments/projects. I never understood why it would remove some of the code or how it truly reads in these prompts I give, but it is something to be mindful of despite the possible successes it has. 
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+### Learning a Concept / Asking for Help
+As stated earlier for the WODs, I used ChatGPT to clarify concepts I found unclear in class. Saying to ChatGPT, “Explain to me the workflow of React," offered a concise explanation and a working example, which I modified to test locally. This improved both comprehension and my ability to retain these concepts!
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+I typically didn’t use AI in live situations like class or Discord discussions, preferring to rely on lecture notes or documentation. It felt important to engage directly with peers or TAs for deeper understanding. Before asking smart questions, I usually went to ChatGPT first to avoid asking something easily searchable. For example, “Why might this database not connect to Vercel?” ChatGPT helped me narrow the issue to the links I am using to connect my databases, allowing me to ask a more targeted question in Discord. Coding Example (e.g., “give an example of using Underscore .pluck”)
 
-I have solved this trouble in bash with:
+Again, as stated earlier, when learning a concept, I used ChatGPT helped clarify concepts. Sometimes, it would be through the use of coding examples. "Show me how to set up a navbar in TypeScript" and it responded with exactly what I needed. These were some of its most successful use cases. Additionally, explaining code that experience WODs would give in the tutorial video would help. “Explain what this JavaScript function does line-by-line.” It was accurate most of the time, though occasionally it skipped over some logic or missed edge cases. Still, a good aid for review.
 
-echo $(date -d"3 month ago" "+%G%m%d")
+### Writing Code
+As stated earlier, I would build off code that ChatGPT uses, but not blindly use them. I’d start with a prompt like: “Write a method to insert a new price when a user submits it.” It usually gave a usable base but I always needed context-aware modifications, so that is where I adjust accordingly. For documenting code, AI was highly effective here. I would ask, “Generate comments for the following code...” and the generated comments were consistent and saved time, though I always read through and occasionally adjusted some terminology.This would go along with quality assurance. For code with ESLint or runtime errors, I’d often paste the snippet into ChatGPT. One example I would ask is, “Fix the ESLint issues in the following code.” It identified problems quickly and even commented them.
 
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
+### Other Uses in ICS 314
+I would sometimes have ChatGPT refer some resources I can look at to better understand some functions. "Where did you get this specific function to do this calculation?" is what I would have to ask a few times. 
+This approach improved my ability to explain to myself and peers on why the function I chose in the end is the best option.
 
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
+# Impact on Learning and Understanding
 
-Thanks for your help!
-```
+AI significantly improved my understanding of complex topics. By offering diverse examples and alternative phrasing compared to what the class offered, it made abstract concepts more concrete for me. I became more confident in debugging and applying design principles. However, it also introduced the temptation to offload thinking, something I had to resist by always reviewing and modifying the generated content.
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+# Practical Applications
 
-```
-A: datetime and the datetime.timedelta classes are your friend.
+Outside ICS 314, I used AI for a research project to fix my plots and write documentation. It sped up setup and explained new frameworks like rasterizing. However, it lacked project-specific context, which sometimes led to misleading results.
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
+# Challenges and Opportunities
+The biggest challenge with AI is knowing when not to rely on it. Blindly trusting the output leads to bugs or even logic flaws. But when used to brainstorm, clarify, or cross-check, it becomes a powerful extension of your thought process. An opportunity going forward is integrating AI tools directly into IDEs (e.g., Co-Pilot) for in-line support with project context.
 
-Like this:
+# Comparative Analysis
 
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
+Traditional teaching methods, in my opinion, usually have this foundational discipline and deeper mental models for their topics. AI, on the other hand, offers speed, accessibility, and diversity of explanation. I found that the best learning happened when both were combined: lecture for core concepts, AI for reinforcement and experimentation. For instance, after a lesson on UI Frameworks, I could immediately test my understanding using ChatGPT for related examples.
 
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+# Future Considerations
 
-## The foolproof way to get ignored.
+AI will likely become a standard companion in software engineering education. Future systems may adapt to individual learning styles, integrate with VS Code or GitHub, and provide context that is aware of the type of assistance it needs to give across the software stack. However, AI must be framed as a co-learner, not a crutch. Students must still build intuition, judgment, and the ability to explain solutions independently.
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+# Conclusion
 
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+Reflecting on ICS 314, AI has played a valuable role in my journey as a software engineer. When used critically and ethically, tools like ChatGPT can enhance learning, provide clarity, and improve productivity. However, they are no substitute for the real process of thinking, struggling, and growing as a developer. I recommend future students treat AI as a smart assistant that is helpful, but not incapable of making mistakes or being wrong. They must always strive to understand why a solution works, not just that it does!
