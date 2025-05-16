@@ -4,7 +4,7 @@ type: essay
 title: "From Code to Career: My Passion for Software Engineering and Future Goals"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-29
-published: true
+published: false
 labels:
   - Research
   - Learning
