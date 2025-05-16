@@ -8,11 +8,10 @@
     "website": "https://Martin-Adra.github.io",
     "summary": "I am studying for a B.S. in Astrophysics in the Department of Natural Sciences at the University of Hawaii at Manoa and a Minor in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2025.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
-    "profiles": [
-      { "network": "github", "username": "Martin-Adra", "url": "http://github.com/Martin-Adra" },
-      { "network": "linkedin", "username": "Martin Adra", "url": "https://www.linkedin.com/in/martin-adra-40a06b1b9/" },
-    ]
-  },
+  "profiles": [
+    { "network": "github", "username": "Martin-Adra", "url": "http://github.com/Martin-Adra" },
+    { "network": "linkedin", "username": "Martin Adra", "url": "https://www.linkedin.com/in/martin-adra-40a06b1b9/" }
+  ],
   "interests": [
     { "name": "Astrophysics" },
     { "name": "Galaxies" },
@@ -35,16 +34,15 @@
     }
   ],
   "education": [
-    {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Astrophysics Spring, 2025",
-      "studyType": "B.S.",
-      "startDate": "2021-08-16",
-      "endDate": "2025-05-17",
-      "courses": [
-      ]
-    }
-  ],
+  {
+    "institution": "University of Hawaii, Honolulu, HI",
+    "area": "Astrophysics",
+    "studyType": "B.S.",
+    "startDate": "2021-08-16",
+    "endDate": "2025-05-17",
+    "courses": []
+  }
+],
   "work": [
     {
       "company": "UH Manoa",
