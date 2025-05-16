@@ -4,7 +4,7 @@ type: essay
 title: "The Value of Coding Standards: More Than Just A Style"
 # All dates must be YYYY-MM-DD format!
 date: 2025-02-13
-published: true
+published: false
 labels:
   - Coding Standards
 ---
