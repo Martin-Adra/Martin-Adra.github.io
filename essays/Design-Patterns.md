@@ -4,7 +4,7 @@ type: essay
 title: "Blueprints of Code: Revealing the Life of Design Patterns"
 # All dates must be YYYY-MM-DD format!
 date: 2025-04-24
-published: true
+published: false
 labels:
   - Design Patterns
   - Software Architecture
