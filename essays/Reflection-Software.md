@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Reflection on Software Engineering: Beyond the Code"
 # All dates must be YYYY-MM-DD format!
-date: 2025-04-24
+date: 2025-05-16
 published: true
 labels:
   - Software Engineering
