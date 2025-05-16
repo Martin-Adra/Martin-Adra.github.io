@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/jeancharles.png
+image: img/cooking-compass.png
 title: "Cooking Compass"
 date: 2025
 published: true
